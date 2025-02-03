@@ -55,7 +55,7 @@ target_include_directories(u4c5_temporizadores PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(u4c5_temporizadores 
-        
+    hardware_timer
         )
 
 pico_add_extra_outputs(u4c5_temporizadores)
