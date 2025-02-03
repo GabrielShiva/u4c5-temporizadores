@@ -71,8 +71,8 @@ int main() {
 
     while (true) {
         // pausa de 9 segundos para reduzir o consumo da CPU
-        sleep_ms(9000);
-        printf("Rotina de repetição!\n");
+        sleep_ms(1000);
+        printf("PASSOU 1 SEGUNDO!\n");
     }
 
     return 0;
